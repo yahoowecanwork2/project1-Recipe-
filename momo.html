@@ -4,10 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>momo recipe</title>
+    <title>Momo Recipe</title>
     <link rel="stylesheet" href="./style1.css">
-
-
+    <!-- Google Fonts for better typography -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -22,130 +22,136 @@
             </ul>
         </nav>
     </header>
-    <!-- Recipe Introduction -->
-    <section class="intro">
-        <img src="data:image/jpeg;base64,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"
-            alt="Momo Dumplings">
-        <p>Momo is a popular type of steamed or fried dumpling native to Tibet, Nepal, and surrounding regions. Whether
-            you're a beginner or looking to refine your momo-making skills, this recipe will guide you through the
-            process.</p>
-    </section>
-    <!-- Ingredients Section -->
-    <section id="ingredients">
-        <h2>Ingredients</h2>
-        <div class="ingredients-list">
-            <div class="section">
-                <h3>For the Dough:</h3>
-                <ul>
-                    <li>2 cups all-purpose flour</li>
-                    <li>1/2 teaspoon salt</li>
-                    <li>Approximately 3/4 cup water</li>
-                </ul>
-            </div>
-            <div class="section">
-                <h3>For the Filling:</h3>
-                <ul>
-                    <li>250 vegetables (e.g., cabbage, carrots, onions)</li>
-                    <li>1 tablespoon soy sauce</li>
-                    <li>1 teaspoon minced garlic</li>
-                    <li>1 teaspoon minced ginger</li>
-                    <li>Salt and pepper to taste</li>
-                    <li>2 tablespoons chopped cilantro (optional)</li>
-                </ul>
-            </div>
-            <div class="section">
-                <h3>For the Sauce (Optional):</h3>
-                <ul>
-                    <li>2 tomatoes, boiled and mashed</li>
-                    <li>2-3 dried red chilies</li>
-                    <li>1 teaspoon sesame seeds</li>
-                    <li>1 teaspoon soy sauce</li>
-                    <li>Salt to taste</li>
-                </ul>
-            </div>
-        </div>
-    </section>
 
-    <!-- Instructions Section -->
-    <section id="instructions">
-        <h2>Instructions</h2>
-        <ol>
-            <li><strong>Prepare the Dough:</strong>
-                <ul>
-                    <li>In a large bowl, mix the flour and salt.</li>
-                    <li>Gradually add water and knead until you get a smooth and elastic dough.</li>
-                    <li>Cover the dough with a damp cloth and let it rest for at least 30 minutes.</li>
-                </ul>
-            </li>
-            <li><strong>Make the Filling:</strong>
-                <ul>
-                    <li>In another bowl, combine minced meat or vegetables with soy sauce, garlic, ginger, salt, pepper,
-                        and cilantro.</li>
-                    <li>Mix well to ensure all ingredients are evenly distributed.</li>
-                </ul>
-            </li>
-            <li><strong>Assemble the Momos:</strong>
-                <ul>
-                    <li>Divide the dough into small, equal-sized balls.</li>
-                    <li>Roll each ball into a thin circle (about 3 inches in diameter).</li>
-                    <li>Place a spoonful of filling in the center of each wrapper.</li>
-                    <li>Fold and pleat the edges to seal the momo. You can make half-moon shapes or traditional round
-                        pleats.</li>
-                </ul>
-            </li>
-            <li><strong>Cook the Momos:</strong>
-                <ul>
-                    <li><strong>Steaming Method:</strong>
-                        <ul>
-                            <li>Place momos in a steamer lined with parchment paper or lightly greased to prevent
-                                sticking.</li>
-                            <li>Steam for about 15-20 minutes until the dough is cooked and slightly translucent.</li>
-                        </ul>
-                    </li>
-                    <li><strong>Frying Method (Fried Momos):</strong>
-                        <ul>
-                            <li>Heat oil in a pan.</li>
-                            <li>Place momos in the pan and fry until golden brown on both sides.</li>
-                        </ul>
-                    </li>
-                </ul>
-            </li>
-            <li><strong>Prepare the Sauce (Optional):</strong>
-                <ul>
-                    <li>Blend boiled tomatoes with dried red chilies and sesame seeds.</li>
-                    <li>Add soy sauce and salt to taste.</li>
-                    <li>Serve the sauce alongside the momos.</li>
-                </ul>
-            </li>
-            <li><strong>Serve:</strong>
-                <ul>
-                    <li>Enjoy the momos hot with the prepared sauce or your favorite chutney.</li>
-                </ul>
-            </li>
-        </ol>
-    </section>
-    <!-- Tips Section -->
-    <section id="tips">
-        <h2>Tips for Perfect Momos</h2>
-        <ul>
-            <li><strong>Dough Consistency:</strong> Ensure the dough is smooth and elastic to make it easier to roll and
-                pleat.</li>
-            <li><strong>Filling Moisture:</strong> The filling should be moist but not too wet to prevent the momo
-                wrappers from becoming soggy.</li>
-            <li><strong>Sealing:</strong> Properly seal the momos to avoid the filling from leaking during cooking.</li>
-            <li><strong>Cooking Time:</strong> Adjust steaming time based on the size of the momos to ensure they are
-                thoroughly cooked.</li>
-            <li><strong>Variations:</strong> Experiment with different fillings like paneer, tofu, or mixed vegetables
-                for variety.</li>
-        </ul>
-    </section>
+    <!-- Main Content -->
+    <main>
+        <!-- Recipe Introduction -->
+        <section class="intro">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyhrelgj2VUN-uTrk46aiy9wX3QDjLi-bDBA&s"
+                alt="Momo Dumplings">
+            <p>Momo is a popular type of steamed or fried dumpling native to Tibet, Nepal, and surrounding regions.
+                Whether you're a beginner or looking to refine your momo-making skills, this recipe will guide you
+                through the process.</p>
+        </section>
+
+        <!-- Ingredients Section -->
+        <section id="ingredients">
+            <h2>Ingredients</h2>
+            <div class="ingredients-list">
+                <div class="section">
+                    <h3>For the Dough:</h3>
+                    <ul>
+                        <li>2 cups all-purpose flour</li>
+                        <li>1/2 teaspoon salt</li>
+                        <li>Approximately 3/4 cup water</li>
+                    </ul>
+                </div>
+                <div class="section">
+                    <h3>For the Filling:</h3>
+                    <ul>
+                        <li>250 grams minced chicken or vegetables (e.g., cabbage, carrots, onions)</li>
+                        <li>1 tablespoon soy sauce</li>
+                        <li>1 teaspoon minced garlic</li>
+                        <li>1 teaspoon minced ginger</li>
+                        <li>Salt and pepper to taste</li>
+                        <li>2 tablespoons chopped cilantro (optional)</li>
+                    </ul>
+                </div>
+                <div class="section">
+                    <h3>For the Sauce (Optional):</h3>
+                    <ul>
+                        <li>2 tomatoes, boiled and mashed</li>
+                        <li>2-3 dried red chilies</li>
+                        <li>1 teaspoon sesame seeds</li>
+                        <li>1 teaspoon soy sauce</li>
+                        <li>Salt to taste</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Instructions Section -->
+        <section id="instructions">
+            <h2>Instructions</h2>
+            <ol>
+                <li><strong>Prepare the Dough:</strong>
+                    <ul>
+                        <li>In a large bowl, mix the flour and salt.</li>
+                        <li>Gradually add water and knead until you get a smooth and elastic dough.</li>
+                        <li>Cover the dough with a damp cloth and let it rest for at least 30 minutes.</li>
+                    </ul>
+                </li>
+                <li><strong>Make the Filling:</strong>
+                    <ul>
+                        <li>In another bowl, combine minced meat or vegetables with soy sauce, garlic, ginger, salt,
+                            pepper, and cilantro.</li>
+                        <li>Mix well to ensure all ingredients are evenly distributed.</li>
+                    </ul>
+                </li>
+                <li><strong>Assemble the Momos:</strong>
+                    <ul>
+                        <li>Divide the dough into small, equal-sized balls.</li>
+                        <li>Roll each ball into a thin circle (about 3 inches in diameter).</li>
+                        <li>Place a spoonful of filling in the center of each wrapper.</li>
+                        <li>Fold and pleat the edges to seal the momo. You can make half-moon shapes or traditional
+                            round pleats.</li>
+                    </ul>
+                </li>
+                <li><strong>Cook the Momos:</strong>
+                    <ul>
+                        <li><strong>Steaming Method:</strong>
+                            <ul>
+                                <li>Place momos in a steamer lined with parchment paper or lightly greased to prevent
+                                    sticking.</li>
+                                <li>Steam for about 15-20 minutes until the dough is cooked and slightly translucent.
+                                </li>
+                            </ul>
+                        </li>
+                        <li><strong>Frying Method (Fried Momos):</strong>
+                            <ul>
+                                <li>Heat oil in a pan.</li>
+                                <li>Place momos in the pan and fry until golden brown on both sides.</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li><strong>Prepare the Sauce (Optional):</strong>
+                    <ul>
+                        <li>Blend boiled tomatoes with dried red chilies and sesame seeds.</li>
+                        <li>Add soy sauce and salt to taste.</li>
+                        <li>Serve the sauce alongside the momos.</li>
+                    </ul>
+                </li>
+                <li><strong>Serve:</strong>
+                    <ul>
+                        <li>Enjoy the momos hot with the prepared sauce or your favorite chutney.</li>
+                    </ul>
+                </li>
+            </ol>
+        </section>
+
+        <!-- Tips Section -->
+        <section id="tips">
+            <h2>Tips for Perfect Momos</h2>
+            <ul>
+                <li><strong>Dough Consistency:</strong> Ensure the dough is smooth and elastic to make it easier to roll
+                    and pleat.</li>
+                <li><strong>Filling Moisture:</strong> The filling should be moist but not too wet to prevent the momo
+                    wrappers from becoming soggy.</li>
+                <li><strong>Sealing:</strong> Properly seal the momos to avoid the filling from leaking during cooking.
+                </li>
+                <li><strong>Cooking Time:</strong> Adjust steaming time based on the size of the momos to ensure they
+                    are thoroughly cooked.</li>
+                <li><strong>Variations:</strong> Experiment with different fillings like paneer, tofu, or mixed
+                    vegetables for variety.</li>
+            </ul>
+        </section>
+    </main>
+
     <!-- Footer Section -->
     <footer>
         <p>&copy; 2024 Momo Delight. All rights reserved.</p>
     </footer>
-
-
-
 </body>
 
 </html>
