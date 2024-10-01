@@ -1,13 +1,14 @@
 body {
-    background-color: rgb(214, 174, 125);
+    background-color: #DDD0C8;
+    position: relative;
 }
 
-/* header style */
+/* Header Styling */
 header {
-    background-color: rgb(31, 29, 32);
-    color: white;
+    background-color: #323232;
+    color: #fff;
+    padding: 20px 0;
     text-align: center;
-    padding: 20px;
 }
 
 header h1 {
@@ -15,28 +16,28 @@ header h1 {
 }
 
 nav ul {
-    list-style-type: none;
+    list-style: none;
     display: flex;
     justify-content: center;
     gap: 20px;
 }
 
 nav ul li a {
-    color: aliceblue;
+    color: #fff;
     text-decoration: none;
     font-weight: bold;
-
+    transition: color 0.3s ease;
 }
 
-/* Intro Section */
-.intro {
+/* introduction section */
+.Introduction {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 40px 20px;
 }
 
-.intro img {
+.Introduction img {
     max-width: 100%;
     height: auto;
     border-radius: 10px;
@@ -44,12 +45,11 @@ nav ul li a {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-.intro p {
+.Introduction p {
+    max-width: 800px;
     text-align: center;
     font-size: 1.1em;
-    max-width: 800px;
     line-height: 1.8;
-
 }
 
 /* Sections Styling */
@@ -62,23 +62,29 @@ section {
 section h2 {
     text-align: center;
     margin-bottom: 20px;
-    color: #493c3b;
+    color: #222121;
     font-size: 2em;
 }
 
 /* Ingredients List */
-.list {
+.ingredients-list {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
     justify-content: center;
 }
 
-.list .section {
+.ingredients-list .section {
+    flex: 1 1 300px;
     background-color: #fff;
     padding: 20px;
     border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
 
+.ingredients-list ul {
+    list-style-type: disc;
+    padding-left: 20px;
 }
 
 /* Instructions Styling */
@@ -103,6 +109,7 @@ section h2 {
     padding-left: 20px;
 }
 
+/* footer section */
 footer {
     background-color: #333;
     color: #fff;
