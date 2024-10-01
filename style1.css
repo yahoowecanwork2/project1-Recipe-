@@ -1,0 +1,157 @@
+body {
+    /* background-image: url(./nehamomo.jpg); */
+    /* width: 100%; */
+    /* height: auto; */
+    /* color: white; */
+    background-size: cover;
+    background-color: rgb(226, 241, 241);
+
+    position: relative;
+
+}
+
+/* Header Styling */
+header {
+    background-color: #ff6f61;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ffecec;
+}
+
+/* Intro Section */
+.intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+}
+
+.intro img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.intro p {
+    max-width: 800px;
+    text-align: center;
+    font-size: 1.1em;
+    line-height: 1.8;
+}
+
+/* Sections Styling */
+section {
+    padding: 40px 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #ff6f61;
+    font-size: 2em;
+}
+
+/* Ingredients List */
+.ingredients-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.ingredients-list .section {
+    flex: 1 1 300px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.ingredients-list .section h3 {
+    margin-bottom: 10px;
+    color: #ff6f61;
+}
+
+.ingredients-list ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+/* Instructions Styling */
+#instructions ol {
+    counter-reset: step-counter;
+}
+
+#instructions li {
+    margin-bottom: 20px;
+    position: relative;
+    padding-left: 30px;
+}
+
+#instructions li:before {
+    counter-increment: step-counter;
+    content: counter(step-counter) ".";
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-weight: bold;
+    color: #ff6f61;
+}
+
+#instructions ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+#instructions ul ul {
+    list-style-type: circle;
+    padding-left: 20px;
+}
+
+/* Tips Section */
+#tips ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+#tips li {
+    margin-bottom: 10px;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 40px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}

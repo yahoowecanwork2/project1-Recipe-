@@ -18,11 +18,13 @@ h1 {
     width: 50%;
 }
 
+
+
 img {
-    width: 50%;
+    width: 200px;
     height: auto;
     border-radius: 10px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     transition: transform 0.3s;
     text-align: center;
 }
