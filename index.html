@@ -5,20 +5,67 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 
-<body background="/imagies/background image home.webp">
-    <h1>Some modern recipes</h1>
-    <p>
-        <img src="https://static.cordonbleu.edu/Files/MediaFile/84569.jpg" alt=" chef imagies" width="500" height="500"
-            -->
-        class="center">
+<body>
+    <!-- header section -->
+    <header>
+        <div class="container">
+            <h1>Some modern recipes</h1>
+            <nav>
+                <ul>
+                    <li><a href="#Home"> home</a></li>
+                    <li><a href="#recipes">Recipe</a></li>
+                    <li><a href="#contact us"> contact</a></li>
+                    <li><a href="#about"> about</a></li>
+                </ul>
+            </nav>
 
-    <h2>A collection of recipes</h2>
-    <ul>
-        <li><a href="./momo.html"> momos recipe</a></li>
-        <li><a href="./sandwich.html"> grilled cheese sandwich recipie</a></li>
-        <li><a href="./vegwrap.html">vegie wrap recipie</a></li>
-    </ul>
-    </p>
+        </div>
+    </header>
+    <main>
+
+        <!-- introduction section -->
+        <section class="background">
+            <div class="item">
+                <h2>Welcome to our Recipe collection!!!</h2>
+                <p>Search mouth wathering recipes to satisfy your craving.</p>
+                <form action="#" class="Search-box">
+                    <input type="text" placeholder="Search Recipe">
+                    <button type="summit"> Search</button>
+                </form>
+
+            </div>
+        </section>
+        <!-- recipe collection -->
+        <section class="recipe">
+
+            <h2>A collection of recipes</h2>
+
+            <ul>
+                <div class="recipe section">
+                    <div class="recipe-card">
+                        <img src="./imagies/momo front.jpeg" alt="momo img">
+                        <h2>Veg momo</h2>
+
+                        <li><a href="./momo.html"> momos recipe</a></li>
+                    </div>
+                    <div class="recipe-card">
+                        <img src="./imagies/front grilled.jpeg" alt="sandwich">
+                        <h2> grilled sandwich</h2>
+                        <li><a href class="./sandwich.html"> grilled cheese sandwich recipie</a></li>
+                    </div>
+                    <div class="recipe-card">
+                        <img src="./imagies/veg wrap front.jpeg" alt="veg wrap">
+                        <h2>Veg Wrap</h2>
+                        <li><a href="./vegwrap.html">vegie wrap recipie</a></li>
+                    </div>
+                </div>
+            </ul>
+        </section>
+    </main>
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 some recipe collection. All rights reserved.</p>
+    </footer>
 </body>
 
 
